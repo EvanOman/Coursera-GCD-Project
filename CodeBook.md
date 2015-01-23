@@ -9,6 +9,7 @@ I decided to use 79 of the 561 data types described above, as specified by the o
 
 * ```activity```: One of six possible activities that were being performed when the data was collected. The are: ```WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING```
 * ```subject```: One of 30 possible subjects that were used during the study. These are described as: ```SUBJECT i``` where ```i``` ranges from 1 to 30.
+
 The following measurements are self explanatory as they are averages of the measures in the original dataset. See the data source website for more information.
 * ```mean(tBodyAccMeanX)```
 * ```mean(tBodyAccMeanY)```
