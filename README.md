@@ -45,7 +45,7 @@ On lines 13-19 I set about loading the ```X_train.txt, subject_train.txt , y_tra
 
 With the data in the workspace I combined training and test data(by row) on lines 25-27. Lines 30-47 are focused on applying better names to the columns and values from the dataset to make everything more readable. Line 50 puts the ```X, y, subject,``` and ```activity``` datasets together into ```mergedDataSet```, satisfying step 4. This ```data.frame``` consists of 10,299 observations of 81 variables.
 
-Finally on line 57 we begin step 5 by grouping ```mergedDataSet``` by the ```subject``` and ```activity``` columns into the ```bySubAct``` ``data.frame```. From here we use ```summary_each``` to create ```tidyDataSet``` which contains the average of each variable for each activity(6 total) and each subject(30 total). Line 69 prints this dataset, consisting of ```6*30 = 180``` observations of 81 variables, to the parent directory as required.
+Finally on line 57 we begin step 5 by grouping ```mergedDataSet``` by the ```subject``` and ```activity``` columns into the ```bySubAct``` ```data.frame```. From here we use ```summary_each``` to create ```tidyDataSet``` which contains the average of each variable for each activity(6 total) and each subject(30 total). Line 69 prints this dataset, consisting of ```6*30 = 180``` observations of 81 variables, to the parent directory as required.
 
 ##Why the output forms a tidy dataset
 * Each variable is in one column(81 columns corresponding to the 81 variables described in the code book)
